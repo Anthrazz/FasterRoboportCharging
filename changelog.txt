@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2021-10-08
+  Changes:
+    - add logistic and construction radius
+
+Version: 0.2.0
+Date: 2021-10-08
+  Changes:
+    - configurable via mod settings
+
+Version: 0.1.0
+Date: 2021-10-07
+  Changes:
+    - first implentation
