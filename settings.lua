@@ -36,6 +36,3 @@ data:extend({
 		default_value = "55",
 	},
 })
-
-
-data.raw.roboport.roboport.energy_source.buffer_capacity = settings.startup["FasterRoboportCharging-roboport-internal-buffer-capacity"].value
