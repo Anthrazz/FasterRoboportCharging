@@ -7,6 +7,9 @@ data.raw.roboport.roboport.energy_source.input_flow_limit = settings.startup["Fa
 -- game default: 50kW idle usage
 data.raw.roboport.roboport.energy_usage = settings.startup["FasterRoboportCharging-roboport-idle-usage"].value
 
+-- game default: 100MJ buffer capacity
+data.raw.roboport.roboport.energy_source.buffer_capacity = settings.startup["FasterRoboportCharging-roboport-internal-buffer-capacity"].value
+
 -- game default: 25
 data.raw.roboport.roboport.logistics_radius = settings.startup["FasterRoboportCharging-roboport-logistics-radius"].value
 

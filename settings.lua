@@ -3,7 +3,7 @@ data:extend({
 		type = "string-setting",
 		name = "FasterRoboportCharging-robo-charging-speed",
 		setting_type = "startup",
-		default_value = "1000kW",
+		default_value = "1MW",
 	},
     {
 		type = "string-setting",
@@ -16,6 +16,12 @@ data:extend({
 		name = "FasterRoboportCharging-roboport-idle-usage",
 		setting_type = "startup",
 		default_value = "50kW",
+	},
+    {
+		type = "string-setting",
+		name = "FasterRoboportCharging-roboport-internal-buffer-capacity",
+		setting_type = "startup",
+		default_value = "100MJ",
 	},
 	{
 		type = "int-setting",
@@ -30,3 +36,6 @@ data:extend({
 		default_value = "55",
 	},
 })
+
+
+data.raw.roboport.roboport.energy_source.buffer_capacity = settings.startup["FasterRoboportCharging-roboport-internal-buffer-capacity"].value
