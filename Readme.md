@@ -6,7 +6,7 @@ All variables can be changed via the ingame mod settings (needs game relaunch).
 
 ## Default Changes to Base Game
 
-* Charging Speed per Robot `1MW` -> `4MW`
+* Charging Speed per Robot stays at default `1MW`
 * Charging Speed of Roboports internal Battery `5MW` -> `40MW`
 * Idle consumption of Roboport stays at default `50kW`
 * Internal power storage stays at default `100MJ`
