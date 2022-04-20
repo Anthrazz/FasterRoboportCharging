@@ -1,6 +1,6 @@
 {
   "name": "FasterRoboportCharging",
-  "version": "0.3.0",
+  "version": "0.4.1",
   "title": "Faster Robotport Charging",
   "description": "Roboports charge robots and their internal battery faster (4x10MW, configurable via mod settings). Also makes logistic- and construction radius configurable (default radius are not change, see mod settings).",
   "author": "Anthrazz",
